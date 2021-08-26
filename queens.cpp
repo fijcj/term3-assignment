@@ -1,5 +1,10 @@
 #include <iostream>
 
+void resetValues(short &a, short &b, const short &aa, const short &bb) {
+    a = aa;
+    b = bb;
+}
+
 int main() {
     short x = 5;
     short y = 4;
@@ -39,7 +44,3 @@ int main() {
     }
 }
 
-void resetValues(short& a, short& b, short& aa, short& bb) {
-    a = aa;
-    b = bb;
-}
