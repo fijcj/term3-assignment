@@ -1,9 +1,6 @@
 #include <iostream>
 
-void resetValues(short &a, short &b, const short &aa, const short &bb) {
-    a = aa;
-    b = bb;
-}
+void resetValues(short &a, short &b, const short &aa, const short &bb);
 
 int main() {
     short x = 5;
@@ -13,19 +10,19 @@ int main() {
     bool barr[8][8] = {false};
     short yS = y-1;
     short xS = x-1;
-    for (short i = xS; i != 8 && yS != -1; ++i, --yS) {
+    for (size_t i = xS; i != 8 && yS != -1; ++i, --yS) {
         barr[yS][i] = true;
     }
     resetValues(yS, xS, y-1, x-1);
-    for (short i = xS; i != -1 && yS != 8; --i, ++yS) {
+    for (size_t i = xS; i != -1 && yS != 8; --i, ++yS) {
         barr[yS][i] = true;
     }
     resetValues(yS, xS, y-1, x-1);
-    for (short i = yS; i != -1 && xS != -1; --i, --xS) {
+    for (size_t i = yS; i != -1 && xS != -1; --i, --xS) {
         barr[i][xS] = true;
     }
     resetValues(yS, xS, y-1, x-1);
-    for (short i = yS; i != 8 && xS != 8; ++i, ++xS) {
+    for (size_t i = yS; i != 8 && xS != 8; ++i, ++xS) {
         barr[i][xS] = true;
     }
     resetValues(yS, xS, y-1, x-1);
@@ -44,3 +41,7 @@ int main() {
     }
 }
 
+void resetValues(short &a, short &b, const short &aa, const short &bb) {
+    a = aa;
+    b = bb;
+}
