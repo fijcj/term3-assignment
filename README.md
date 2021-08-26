@@ -38,7 +38,7 @@ Or
 `clang++ ./queens.cpp -o ./queens`
 
 ### Windows
-You will probably need Visual Studio and it's MSVC compiler
+You will probably need Visual Studio and its MSVC compiler
 Open the file with Visual Studio and let it compile
 
 I recommend using MinGW, if you already have this setup, run 
