@@ -11,28 +11,23 @@ int main() {
     for (short i = xS; i != 8 && yS != -1; ++i, --yS) {
         barr[yS][i] = true;
     }
-    yS = y-1;
-    xS = x-1;
+    resetValues(yS, xS, y-1, x-1);
     for (short i = xS; i != -1 && yS != 8; --i, ++yS) {
         barr[yS][i] = true;
     }
-    yS = y-1;
-    xS = x-1;
+    resetValues(yS, xS, y-1, x-1);
     for (short i = yS; i != -1 && xS != -1; --i, --xS) {
         barr[i][xS] = true;
     }
-    yS = y-1;
-    xS = x-1;
+    resetValues(yS, xS, y-1, x-1);
     for (short i = yS; i != 8 && xS != 8; ++i, ++xS) {
         barr[i][xS] = true;
     }
-    yS = y-1;
-    xS = x-1;
+    resetValues(yS, xS, y-1, x-1);
     for (size_t i = 0; i != 8; ++i) {
         barr[i][xS] = true;
     }
-    yS = y-1;
-    xS = x-1;
+    resetValues(yS, xS, y-1, x-1);
     for (size_t i = 0; i != 8; ++i) {
         barr[yS][i] = true;
     }
@@ -42,4 +37,9 @@ int main() {
         }
         std::cout << std::endl;
     }
+}
+
+void resetValues(short& a, short& b, short& aa, short& bb) {
+    a = aa;
+    b = bb;
 }
