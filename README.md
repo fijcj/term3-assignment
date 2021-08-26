@@ -4,7 +4,7 @@ I used this to prove that my pseudocode worked as intended.
 
 # HOW TO TEST
 
-I'm assuming you're a teacher so you're probably on Windows 10 with English as it's main language
+I'm assuming you're a teacher so you're probably on Windows 10 with English as its main language
 
 1. Download the exe from [the releases tab](https://github.com/fijcj/term3-assignment/releases)
 
