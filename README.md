@@ -43,6 +43,6 @@ Or
 You will probably need Visual Studio and its MSVC compiler
 Open the file with Visual Studio and let it compile
 
-I recommend using MinGW, if you already have this setup, run 
+I recommend using MinGW but if you don't already have it setup, just use the Visual Studio compiler. If you already MinGW setup run 
 
 `g++ ./queens.cpp -o ./queens.exe`
