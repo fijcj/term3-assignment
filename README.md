@@ -1,2 +1,3 @@
-# term3-assignment
-8queens thing by bosco chau
+# Term 3 8 Queens Assignment by Bosco
+
+I used this to prove that my pseudocode worked as intended
