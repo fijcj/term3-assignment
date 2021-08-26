@@ -23,7 +23,7 @@ It SHOULD print out a board like structure
 The 1s represent spaces which the queen can attack, the 0s represent spaces the queen cannot attack
 
 
-
+the coordinate 1,1 is in the top left corner, whereas the coordinate 8,8 is in the bottom right corner
 
 
 # To build from source.
