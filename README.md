@@ -2,6 +2,8 @@
 
 I used this to prove that my pseudocode worked as intended.
 
+If you read the code and understand c++ then you'll see that I could have optimized this code to like, 1/8 of the RAM that it already uses with bitwise operators but this is supposed to be a proof of concept for my pseudocode, not a world recording breaking program
+
 # HOW TO TEST
 
 I'm assuming you're a teacher so you're probably on Windows 10 with English as its main language
