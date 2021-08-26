@@ -4,21 +4,19 @@ I used this to prove that my pseudocode worked as intended.
 
 # HOW TO TEST
 
-Download the exe from [the releases tab](https://github.com/fijcj/term3-assignment/releases)
-
-This program must be run from the terminal to do anything.
-
 I'm assuming you're a teacher so you're probably on Windows 10 with English as it's main language
 
-Move the executable to your desktop
+1. Download the exe from [the releases tab](https://github.com/fijcj/term3-assignment/releases)
 
-Open command prompt
+2. Move the executable to your desktop
 
-type cd %userprofile%\Desktop
+3. Open command prompt
 
-run .\queens.exe
+4. type cd %userprofile%\Desktop
 
-Give it the x coordinate, then the y coordinate separated by a space, then click enter. These are the coordinates of the queen
+5. run .\queens.exe
+
+6. Give it the x coordinate, then the y coordinate separated by a space, then click enter. These are the coordinates of the queen
 
 It SHOULD print out a board like structure
 
