@@ -33,8 +33,8 @@ int main() {
     for (size_t i = 0; i != 8; ++i) {
         barr[yS][i] = true;
     }
-    for (const auto &a : barr) {
-        for (const auto b : a) {
+    for (const bool (&a)[8] : barr) {
+        for (const bool b : a) {
             std::cout << b << ' ';
         }
         std::cout << std::endl;
