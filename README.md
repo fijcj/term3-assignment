@@ -14,7 +14,7 @@ I'm assuming you're a teacher so you're probably on Windows 10 with English as i
 
 4. type cd %userprofile%\Desktop
 
-5. run .\queens.exe
+5. run .\queens-windows.exe
 
 6. Give it the x coordinate, then the y coordinate separated by a space, then click enter. These are the coordinates of the queen
 
