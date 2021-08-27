@@ -41,7 +41,7 @@ int main() {
     }
 }
 
-void resetValues(short &a, short &b, const short &aa, const short &bb) {
+inline void resetValues(short &a, short &b, const short &aa, const short &bb) {
     a = aa;
     b = bb;
 }
