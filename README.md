@@ -6,7 +6,7 @@ If you read the code and understand c++ then you'll see that I could have optimi
 
 # HOW TO TEST
 
-I'm assuming you're one of my school's IST teachers so you're probably on Windows 10 with English as its main language
+I'm assuming you're one of my school's IST teachers. These steps should be reproducable on Windows 10 with English as its main language
 
 1. Download the exe from [the releases tab](https://github.com/fijcj/term3-assignment/releases)
 
